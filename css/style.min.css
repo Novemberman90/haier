@@ -10,7 +10,7 @@ body {
   font-weight: 400; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000317}}
-.about__title, .partner__title, .footer__number {
+.about__title, .partner__title, .rakuten-tv__title, .rakuten-tv__text, .footer__number {
   font-family: 'Calibri Bold';
   font-weight: 700; }
 
@@ -747,6 +747,96 @@ a {
       -webkit-box-flex: 50%;
           -ms-flex: 50%;
               flex: 50%; } }
+/* rakuten-tv*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003314}}
+.rakuten-tv {
+  padding: 80px 0;
+  background-image: url("../images/content/haier-rak-bg.jpg");
+  background-position: right 50% center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003320}}
+  .rakuten-tv__img-mob {
+    display: none;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003326}}
+  .rakuten-tv__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003330}}
+  .rakuten-tv__content {
+    width: 600px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003333}}
+  .rakuten-tv__title-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    margin-bottom: 15px;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003339}}
+  .rakuten-tv__title-img {
+    position: absolute;
+    bottom: 7px;
+    right: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003344}}
+  .rakuten-tv__title {
+    font-size: 74px;
+    line-height: 1;
+    margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003350}}
+  .rakuten-tv__text {
+    font-size: 24px;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003355}}
+  .rakuten-tv__btn {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 75px;
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    border-radius: 7px; }
+
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003365}}
+  .rakuten-tv {
+    padding: 0 0 30px;
+    background-image: url("../images/content/blue-bg.svg");
+    background-size: cover;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003370}}
+    .rakuten-tv__img-mob {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003373}}
+    .rakuten-tv__inner {
+      padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003376}}
+    .rakuten-tv__text {
+      font-size: 18px; } }
+@media (max-width: 680px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003383}}
+  .rakuten-tv__title {
+    font-size: 55px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003386}}
+  .rakuten-tv__title-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003389}}
+  .rakuten-tv__title-img {
+    position: static; } }
+@media (max-width: 448px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003396}}
+  .rakuten-tv__text {
+    font-size: 16px; } }
 /* @media(max-width: 378px) {
   .partner {
     &__link {
@@ -1023,78 +1113,6 @@ a {
     color: #00aaff;
     line-height: 1.5;
     padding-top: 10px;
-  }
-} */
-/* promo */
-/* .promo {
-  padding: 80px 0;
-  overflow: hidden;
-  &__inner {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-  }
-  &__img {
-    position: absolute;
-    left: -25%;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: -1;
-    img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-  }
-  &__content {
-    padding-top: 10px;
-    max-width: 540px;
-    width: 100%;
-  }
-
-  &__title {
-    @extend %Montserrat-500;
-    font-size: 36px;
-    color: $blue-accent;
-    margin-bottom: 25px;
-  }
-
-  &__subtitle {
-    font-size: 16px;
-    margin-bottom: 25px;
-  }
-
-  &__code {
-    color: $blue-accent;
-    font-size: 18px;
-  }
-
-  &__text {
-    font-size: 16px;
-    margin-bottom: 30px;
-  }
-
-  ol.promo__steps {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 1.5;
-    counter-reset: myCounter;
-    list-style: none;
-    li {
-      margin-bottom: 20px;
-      padding-left: 35px;
-      position: relative;
-      &::before {
-        position: absolute;
-        counter-increment: myCounter;
-        content: counter(myCounter)".";
-        color: $blue-accent;
-        left: 0;
-      }
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
   }
 } */
 /* popup */
