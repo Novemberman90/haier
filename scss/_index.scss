@@ -61,6 +61,9 @@
 @media(max-width: 768px) {
   .hero {
     padding-top: 72px;
+    &__content {
+      padding-top: 50px;
+    }
     &__title {
       font-size: 48px;
       color: $white;
