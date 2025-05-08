@@ -69,7 +69,6 @@ const headerScroll = () => {
     headerActive.classList.remove('header--active');
     headerWrapper.classList.remove('header__wrapper--visible');
     headerInner.classList.remove('header__inner--visible');
-    hero.classList.add('hero--active');
 
     setTimeout(() => {
       headerLogo.classList.remove('header__logo--scrolled');
