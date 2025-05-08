@@ -1,0 +1,38 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  @extend %calibri-400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: $white;
+  position: relative;
+  &.lock {
+    overflow: hidden;
+  }
+}
+a {
+  color: inherit;
+}
+.main {
+  flex-grow: 1;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+/*   &--style {
+    border-top: 1px solid $grey;
+    padding-top: 20px;
+ } */
+}
+.title {
+  font-size: 36px;
+
+}

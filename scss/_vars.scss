@@ -1,0 +1,44 @@
+$black: #000000;
+$white: #ffffff;
+$accent: #004ea2;
+$aqua: #2db5f5;
+$hero-bullet: #9e958b;
+$hero-bullet--active: #d7cfc2;
+$grey: #808080;
+
+%calibri-300 {
+  font-family: 'calibri_light';
+  font-weight: 300;
+}
+%calibri-400 {
+  font-family: 'Calibri';
+  font-weight: 400;
+}
+%calibri-700 {
+  font-family: 'Calibri Bold';
+  font-weight: 700;
+}
+
+
+ %checkbox-hidden,
+ %radio-hidden {
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);
+   position: absolute;
+ }
+ %uppercase{
+   text-transform: uppercase;
+ }
+ %capitalaize {
+  text-transform: capitalize;
+ }
+
+ %visual-hiden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    position: absolute;
+ }
