@@ -75,7 +75,7 @@ const headerScroll = () => {
       headerLogo.classList.remove('header__logo--scrolled');
     }, 50);
       
-  } else if (scrollPosition <= headerHeight + 20  && isScrolled) {
+  } else if (scrollPosition <= headerHeight + 50  && isScrolled) {
     isScrolled = false;
     headerActive.classList.add('header--active');
     hero.classList.remove('hero--active');
