@@ -209,6 +209,88 @@
 }
 
 
+/* multibaner */
+.mutibaner {
+  padding: 70px 0;
+}
+.mutibaner-slider {
+  position: relative;
+  &__pagination {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__bullet {
+    background-color: $hero-bullet;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+
+    &--active {
+      background-color: $hero-bullet--active;
+    }
+  }
+}
+.feature {
+  display: flex;
+  &__left-box {
+    margin-right: 25px;
+    width: 530px;
+  }
+  &__left-top {
+    text-align: right;
+    margin-bottom: 60px;
+  }
+  &__title {
+    color: $black;
+    @extend %calibri-700;
+    &--top {
+      font-size: 70px;
+      line-height: 1.2;
+    }
+    &--left {
+      font-size: 40px;
+      @extend %calibri-400;
+    }
+    &--right-bottom {
+      font-size: 46px;
+      line-height: 1;
+    }
+  }
+  &__text {
+    color: $black;
+    font-size: 20px;
+  }
+  &__img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    &--right-top {
+      width: 100%;
+    }
+    &__left-img {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  &__right-box {
+    width: 670px;
+  }
+
+  &__right-bottom {
+    padding-top: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
 /* partner */
 .partner {
   padding: 130px 0 175px;
