@@ -12,40 +12,16 @@ const POPUP = document.querySelector('.popup');
 // .catalog__control-prev
 // .catalog__control-next
 
+MENU_BTN.addEventListener('click', ()=>{
+  MENU_BTN.classList.toggle('menu__btn--active');
+  openMenu()
+});
 
-/* const headerScroll = () => {
-  
-  const headerActive = document.querySelector('.header'),
-        headerWrapper = document.querySelector('.header__wrapper'),
-        headerInner = document.querySelector('.header__inner'),
-        headerLogo = document.querySelector('.header__logo');
-  const headerHeight = headerWrapper.offsetHeight;
-  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-
-  if(scrollPosition > headerHeight + 20 ){
-    headerActive.classList.remove('header--active');
-    headerWrapper.classList.remove('header__wrapper--visible');
-    headerInner.classList.remove('header__inner--visible');
-    headerLogo.classList.remove('header__logo--top');
-    headerLogo.classList.add('header__logo--scrolled');
-
-    setTimeout(() => {
-      headerLogo.classList.remove('header__logo--scrolled');
-    }, 100);
-    
-  } else {
-    headerActive.classList.add('header--active');
-     headerWrapper.classList.add('header__wrapper--visible');
-     headerInner.classList.add('header__inner--visible');
-     headerLogo.classList.add('header__logo--scrolled');
-     headerLogo.classList.add('header__logo--top');
-     setTimeout(() => {
-      headerLogo.classList.remove('header__logo--scrolled');
-    }, 100);
-  }
-
+const openMenu = ()=> {
+  document.body.classList.toggle('lock');
+  MENU_LIST.classList.toggle('menu__list--active');
 }
-window.addEventListener('scroll', headerScroll); */
+
 
 
 
@@ -72,7 +48,7 @@ const headerScroll = () => {
 
     setTimeout(() => {
       headerLogo.classList.remove('header__logo--scrolled');
-    }, 50);
+    }, 10);
       
   } else if (scrollPosition <= headerHeight + 50  && isScrolled) {
     isScrolled = false;
@@ -82,7 +58,6 @@ const headerScroll = () => {
     headerInner.classList.add('header__inner--visible');
     headerLogo.classList.add('header__logo--scrolled');
     headerLogo.classList.add('header__logo--top');
-    
 
     setTimeout(() => {
       headerLogo.classList.remove('header__logo--scrolled');

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.5" height="47.53" viewBox="0 0 47.5 47.53">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 1px;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="47" y1="24.589" x2="0.5" y2="22.941" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8d0d84"/>
+      <stop offset="1" stop-color="#54338a"/>
+    </linearGradient>
+  </defs>
+  <circle id="Эллипс_1_копия_5" data-name="Эллипс 1 копия 5" class="cls-1" cx="23.75" cy="23.765" r="23.25"/>
+</svg>

@@ -89,7 +89,7 @@
   padding: 70px 0 40px;
   background-position: right 20% top 18%;
   background-repeat: no-repeat;
-  background-size: 115%;
+  background-size: 120%;
    &__inner {
     position: relative;
 
@@ -166,7 +166,7 @@
   }
 }
 
-@media(max-width: 1110px) {
+@media(max-width: 1180px) {
   .about {
     &__stats-desc {
       display: grid;
@@ -499,7 +499,7 @@
       }
     }
     &__content {
-      width: 345px;
+      width: 338px;
     }
     &__contact-list {
       gap: 7px;
@@ -548,6 +548,157 @@
   }
 }
 
+.promo {
+  &__item {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+  }
+  &__inner {
+    padding: 100px 0 0;
+  }
+  &__content {
+    &--two {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .promo__title-box {
+        max-width: 480px;
+        width: 100%;
+      }
+    }
+  }
+  &__title-box {
+    max-width: 450px;
+    width: 100%;
+  }
+  &__title{
+    display: block;
+    @extend %calibri-700;
+    font-size: 49px;
+    color: $white;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    @extend %calibri-300;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  &__size-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 145px;
+  }
+  &__size-btn {
+    font-size: 20px;
+    padding:19px 20px;
+    width: 63px;
+    height: 63px;
+    border: 1px solid $white;
+    color: $white;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '"';
+      right: 13px;
+    }
+    &--active {
+      background-image: url('../images/icon/elips-active.svg');
+    }
+    &:hover {
+      background-image: url('../images/icon/elips-active.svg');
+    }
+  }
+  &__benefits-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 768px){
+  .promo {
+    &__item {
+      padding-bottom: 60px;
+      &--one {
+        background-image: url('../images/baner/baner-1-mob.jpg') !important;
+      }
+      &--two {
+        background-image: url('../images/baner/baner-2-mob.jpg') !important;
+      }
+      &--tree {
+        background-image: url('../images/baner/baner-3-mob.jpg') !important;
+      }
+      
+     }
+     &__inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+      padding-top: 0;
+     }
+      &__content {
+        &--two {
+          display: block;
+          .promo__title-box {
+            max-width: 100%;
+          }
+        }
+      }
+     &__title {
+      font-size: 45px;
+      margin-bottom: 15px;
+     }
+     &__subtitle {
+      font-size: 20px;
+     }
+     &__size-icon {
+      height: 50px;
+     }
+     &__size-group {
+      margin-bottom: 0;
+      gap: 10px;
+      flex-wrap: wrap;
+     }
+     &__size-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 15px;
+      padding: 10px;
+      &::after {
+        right: 10px;
+      }
+    
+      &--active {
+        background-image: url('../images/icon/elips-active-mob.svg');
+      }
+    
+      &:hover {
+        background-image: url('../images/icon/elips-active-mob.svg');
+      }
+     }
+     &__benefits-img {
+      display: none;
+     }
+  }
+}
+@media(max-width: 548px) {
+  .promo {
+    &__item {
+      height: 670px;
+    }
+  }
+}
 /* popup */
 /*.popup {
   
