@@ -1,6 +1,6 @@
 
 .hero {
-  padding-top: 25px;
+  padding-top: 65px;
   &__wrapper {
     position: relative;
   }
@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    padding: 130px 0 0;
+    padding: 100px 0 0;
   }
   &__inner {
     display: flex;
@@ -318,6 +318,9 @@
   background-position: right 50% center;
   background-size: cover;
   background-repeat: no-repeat;
+  &--singlPage {
+    padding: 160px 0;
+  }
   &__img-mob {
     display: none;
     width: 100%;
@@ -722,6 +725,11 @@
     padding: 60px 80px;
     background-color: $white;
     position: relative;
+    &--rakuten {
+      max-width: 586px;
+      width: 100%;
+      padding: 0;
+    }
   }
   &__panel {
     display: flex;
@@ -739,6 +747,7 @@
     right: 40px;
     cursor: pointer;
   }
+  
 }
 
 /* product */

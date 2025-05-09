@@ -1,0 +1,195 @@
+.rakuten {
+  padding: 75px 0 0;
+  &__form-title-box {
+    text-align: center;
+    color: $black;
+    margin-bottom: 50px;
+  }
+  &__form-title {
+    @extend %calibri-700;
+    font-size: 44px;
+    margin-bottom: 35px;
+  }
+  &__form-subtitle {
+    font-size: 20px;
+    line-height: 1.75;
+  }
+}
+.form {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  input {
+    border: 1px solid $input-grey;
+    border-radius: 7px;
+    &:hover,
+    &:focus-visible {
+      border: 1px solid $accent;
+      outline: $accent;
+    }
+    &::placeholder {
+      @extend %calibri-400;
+      font-size: 20px;
+      line-height: 2.2;
+      color: $placeholder;
+    }
+  }
+  &__fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border: none;
+  }
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 20px 25px;
+  }
+  &__btn {
+    display: block;
+    padding: 10px 54px;
+    background-color: $aquamarine;
+    border-radius: 7px;
+    color: $white;
+    font-size: 24px;
+    border: none;
+    margin: 0 auto;  
+  }
+}
+.rakuten-step {
+  padding-top: 100px;
+  &__title {
+    @extend %calibri-700;
+    color: $black;
+    font-size: 32px;
+    line-height: 1.87;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px 75px;
+  }
+  &__item {
+    width: 320px;
+  }
+  &__img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  &__item-conent {
+    padding-top: 25px;
+    color: $black;
+    text-align: center;
+  }
+  &__item-title {
+    @extend %calibri-700;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  &__item-text {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+.rakuten-info {
+  padding: 120px 0 75px;
+  &__title {
+    color: $black;
+    @extend %calibri-700;
+    font-size: 22px;
+    line-height: 1.72;
+    margin-bottom: 20px;
+  }
+  &__content {
+    color: $black;
+    font-size: 18px;
+    line-height: 1.38;
+  }
+  p {
+    margin-bottom: 30px;
+    &:first-child {
+      line-height: 2.1;
+      margin-bottom: 50px;
+    }
+    &:nth-last-child(2) {
+      margin-bottom: 60px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.rakuten-popup {
+box-shadow: -6.695px 11.143px 16.74px 1.26px rgba(8, 19, 36, 0.17);
+  padding: 150px 50px 100px;
+  text-align: center;
+  &__title {
+    @extend %calibri-700;
+    font-size: 36px;
+    line-height: 46px;
+    color: $black;
+  }
+  &__thnk {
+    color: $black;
+    @extend %calibri-400;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 55px;
+  }
+  &__btn{
+    display: block;
+    background-color: $aquamarine;
+    padding: 10px 120px;
+    font-size: 24px;
+    border: none;
+    border-radius: 7px;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 768px) {
+  .rakuten {
+    padding-top: 50px;
+   &__form-title-box {
+      text-align: left;
+    }
+    &__form-title {
+      font-size: 42px;
+      margin-bottom: 25px;
+    }
+    &__form-subtitle {
+     br {
+      display: none;
+     }
+    }
+  }
+  .form {
+    gap: 10px;
+  }
+  .rakuten-step {
+    &__item {
+      width: 160px;
+      &:last-child {
+        width: 250px;
+      }
+    }
+  }
+}
+@media(max-width: 378px) {
+  .rakuten-step {
+      &__item {
+      width: 320px;
+
+      &:last-child {
+        width: 320px;
+      }
+    }
+  }
+}
