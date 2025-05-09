@@ -1,16 +1,16 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000315}}
 .about dd, .promo__subtitle {
   font-family: 'calibri_light';
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000313}}
-body, .service__contact-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000319}}
+body, .service__contact-title, .product-tabs__nav-item {
   font-family: 'Calibri';
   font-weight: 400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000317}}
-.about__title, .partner__title, .rakuten-tv__title, .rakuten-tv__text, .service__title, .service__subtitle, .service__decr-tel, .promo__title, .footer__number {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_vars\.scss}line{font-family:\0000323}}
+.about__title, .partner__title, .rakuten-tv__title, .rakuten-tv__text, .service__title, .service__subtitle, .service__decr-tel, .promo__title, .popup__title, .product-tabs__content-title, .table__title, .footer__number {
   font-family: 'Calibri Bold';
   font-weight: 700; }
 
@@ -1147,569 +1147,379 @@ a {
   .promo__item {
     height: 670px; } }
 /* popup */
-/*.popup {
-  
-   &--active {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-    z-index: 50;
-    overflow-y: auto;
-  
-  &__dialog {
-    max-width: 1360px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px 80px;
-    background-color: $product-bg;
-    position: relative;
-  }
-  &__panel {
-    display: flex;
-  }
-  &__title {
-    @extend %Montserrat-500;
-    font-size: 30px;
-    color: $product-black;
-  }
-  &__close {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    cursor: pointer;
-  }
-}
-} */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003704}}
+.popup--active {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 50;
+  overflow-y: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003718}}
+.popup__dialog {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 80px;
+  background-color: #ffffff;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003726}}
+.popup__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003729}}
+.popup__title {
+  font-size: 30px;
+  color: #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003734}}
+.popup__close {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer; }
+
 /* product */
-/* .product {
-  &__inner {
-    display: flex;
-    padding-top: 70px;
-  }
-  &__slider {
-    width: 600px;
-    display: flex;
-    align-items: center;
-    margin-left: -80px;
-    margin-right: 60px;
-  }
-  &__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  &__content-link {
-    @extend %Montserrat-600;
-    font-size: 14px;
-    line-height: 1.4;
-    color: $white;
-    padding: 10px 60px;
-    text-align: center;
-    border-radius: 30px;
-    &--new {
-      background-color: $pink;
-      text-transform: uppercase;
-    }
-    &--buy {
-      background-color: $blue-accent;
-    }
-  }
-  ul.product__nav-list {
-    margin: 25px 0 40px;
-  }
-  &__nav-item {
-    display: flex;
-    gap: 5px;
-    font-size: 16px;
-    color: $product-black;
-  }
-} */
-/* .product-slider {
-  &__big {
-    width: 500px;
-  }
-  &__big-item {
-    width: 100%;
-  }
-  &__big-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  &__thumb-wrapper {
-    width: 100px;
-    text-align: center;
-  }
-  &__thumb{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-  }
-  &__pagination {
-    display: none;
-    align-items: center;
-    gap: 15px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003746}}
+.product__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003750}}
+.product__slider {
+  width: 400px;
+  display: block;
+  margin-right: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003755}}
+.product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003760}}
+.product__content-link {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 7px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003769}}
+  .product__content-link:hover, .product__content-link:active {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003773}}
+  .product__content-link--new {
+    padding: 14px 40px;
+    background-color: #feca65;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003778}}
+  .product__content-link--buy {
+    font-size: 24px;
+    padding: 14px 84px;
+    background-color: #2cb4f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003784}}
+.product ul.product__nav-list {
+  margin: 25px 0 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003787}}
+.product__nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003795}}
+.product-slider__big {
+  width: 400px;
+  margin-left: -20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003799}}
+.product-slider__big-item {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003802}}
+.product-slider__big-img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003807}}
+.product-slider__thumb-wrapper {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003810}}
+.product-slider__thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003814}}
+.product-slider__thumb-img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003819}}
+.product-slider__pagination {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003828}}
+.product-slider__bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #cbe0f3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003833}}
+  .product-slider__bullet--active {
+    background-color: #9dbedd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003838}}
+.product-descr {
+  padding-top: 110px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003843}}
+.product-tabs__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003849}}
+.product-tabs__nav-item {
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 20px;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003856}}
+  .product-tabs__nav-item::after {
+    width: 0%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  &__bullet {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: $product-bullet;
-    &--active {
-      background-color: $product-bullet-active;
-    }
-  }
-} */
-/* .product-descr {
-  padding-top: 110px;
-} */
-/* .product-tabs {
-  &__nav {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  &__nav-item {
-    font-size: 16px;
-    color: $product-black;
-    padding-bottom: 28px;
+    content: ''; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003862}}
+  .product-tabs__nav-item--active {
     position: relative;
-    &--active {
-      position: relative;
-      color: $blue-accent;
-     &::after{
+    color: #2cb4f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003865}}
+    .product-tabs__nav-item--active::after {
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      content: '';
+      width: 100%;
+      height: 5px;
+      left: 0;
+      bottom: 0;
+      background-color: #2cb4f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003875}}
+  .product-tabs__nav-item:hover {
+    color: #2cb4f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003877}}
+    .product-tabs__nav-item:hover::after {
       position: absolute;
       content: '';
       width: 100%;
-      height: 3px;
+      height: 5px;
       left: 0;
       bottom: 0;
-      background-color: $blue-accent;
-     }
-    }
-    &:hover {
-      color: $blue-accent;
-    &::after {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 3px;
-        left: 0;
-        bottom: 0;
-        background-color: $blue-accent;
-      }
-    }
-  }
-  &__content-item {
-    display: none;
-    &--active {
-      display: block;
-    }
-  }
-  &__content-title {
-    @extend %Montserrat-500;
-    color: $product-black;
-    font-size: 24px;
-    margin-bottom: 25px;
-  }
-} */
+      background-color: #2cb4f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003888}}
+.product-tabs__content-item {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003890}}
+  .product-tabs__content-item--active {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003894}}
+.product-tabs__content-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #000000; }
+
 /* table in tabs */
-/* .table {
-  &__header {
-    background-color: $table-grey;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003903}}
+.table {
+  color: #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003905}}
+  .table__header {
+    background-color: #e9e9e9;
     padding: 10px 25px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-  &__title {
-    @extend %Montserrat-500;
-    color: $product-black;
-    font-size: 18px;
-  }
-  &__item {
-    @extend %Montserrat-500;
-    font-size: 14px;
-    color: $product-black;
+    grid-template-columns: 1fr 2fr; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003911}}
+  .table__title {
+    font-size: 22px;
+    color: #000000;
+    line-height: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003917}}
+  .table__item {
+    font-size: 20px;
+    line-height: 2.2;
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 10px 10px 10px 25px;
-    border-bottom: 1px solid $table-grey;
-    &--specs {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-} */
-/* @media(max-width: 1650px) {
-  .top-wrapper {
-    &::after {
-      top: 0;
-      width: 25%;
-    }
-  }
-  .promo {
-    &__img {
-      left: 0;
-    }
-  }
-}
-@media(max-width: 1440px) {
-  .top-wrapper {
-    &::before,
-    &::after {
-      content: none;
-    }
-  }
-}
-@media(max-width: 1240px) {
-  .baner-slider {
-    &__bg {
-      height: 430px;
-    }
-    &__container {
-      justify-content: center;
-    }
-    &__content {
-      padding: 0 0 60px;
-      justify-content: flex-end;
-    }
-    &__title {
-      margin-bottom: 30px;
-    }
-    &__img {
-      display: none;
-    }
-  }
-  .warranty {
-    &__img {
-      max-width: 589px;
-    }
-  }
-}
+    border-bottom: 1px solid #004ea2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003924}}
+    .table__item--specs {
+      grid-template-columns: 1fr 1fr; }
 
-@media(max-width: 1180px) {
-  .partner {
-    &__list {
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-  }
-  .promo {
-    padding-top: 0;
-    &__inner {
-      padding-top:580px;
-      justify-content: center;
-    }
-    &__img {
-      left: 50%;
-      top: 0;
-      transform: translate(-50%,0);
-      max-width: 512px;
-      width: 100%;
-      z-index: -1;
-    }
-  }
-}
-@media(max-width: 998px) {
-  .popup {
-    &__dialog{
-      padding: 60px;
-    }
-    &__title {
-      display: none;
-    }
-  }
-  .product {
-    &__inner {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    &__slider {
-      width: 100%;
-      flex-wrap: wrap;
-      margin-left: auto;
-      margin-right:auto; 
-      position: relative;
-    }
-    &__content {
-      max-width: 410px;
-      width: 100%;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    ul.product__nav-list {
-      order: 1;
-      margin: 50px auto;
-    }
-    &__nav-item {
-      justify-content: center;
-    }
-    &__content-link {
-      order: 2;
-      margin-right: 0px;
-      &:last-child {
-        margin-right: 0px;
-      }
-    }
-  }
-  .product-slider{
-    &__big {
-      width: 100%;
-    }
-    &__thumb-wrapper {
-      display: none;
-    }
-    &__pagination {
-      display: flex;
-    }
-  }
-}
-@media(max-width: 860px) {
-.hero-slider {
-    &__bg {
-      background-position: top;
-      background-image: url('../images/hero/slider-item-mob.webp');
-    }
-    &__logo {
-      display: none;
-    }
-    &__content {
-      max-width: 350px;
-      padding: 0 0 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      text-align: center;
-    }
-    &__container {
-      justify-content: center;
-    }
-    &__subtitle {
-      margin-top: 0;
-      font-size: 38px;
-    }
-  }
-.warranty {
-    position: relative;
+@media (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003934}}
+  .product__slider {
+    margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003938}}
+  .product__content-link--buy {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px; } }
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003948}}
+  .popup__dialog {
+    padding: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003952}}
+  .popup__title {
+    display: none; }
 
-    &__img {
-      max-width: 432px;
-      top: 0;
-      right: 0;
-      left: 0;
-      transform: translate(0,0);
-    }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003958}}
+  .product__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003963}}
+  .product__slider {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003971}}
+  .product__content {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003975}}
+  .product__content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0 20px;
+    padding: 0px 10px 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003983}}
+  .product ul.product__nav-list {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 50px auto;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003989}}
+  .product__nav-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003993}}
+  .product__content-link {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-right: 0px;
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003998}}
+    .product__content-link:last-child {
+      margin-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031002}}
+    .product__content-link--buy, .product__content-link--buy {
+      padding-left: 30px;
+      padding-right: 30px; }
 
-    &__inner {
-      padding-top: 329px;
-      position: static;
-      justify-content: center;
-    }
-  }
-}
-@media(max-width: 748px) {
-  .promo{
-    &__title,
-    &__subtitle {
-     text-align: center;
-    }
-  }
-}
-@media(max-width: 578px) {
-  .top-wrapper {
-    position: relative;
-    &::before {
-    background-image: url('../images/content/about-s.png');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      content: '';
-      width: 50%;
-      top: 0;
-      bottom: 0;
-      left: 0;
-    }
-  }
-  .hero-slider {
-    position: relative;
-    &::after {
-        position: absolute;
-        background-image: url('../images/content/about-bg-mob.png');
-        background-position: top right;
-        background-repeat: no-repeat;
-        background-size: contain;
-        content: '';
-        width: 100%;
-        top: 50%;
-        bottom: 0;
-        right: 0;
-      }
-    &__content {
-      padding: 0 0 50px;
-    }
-  }
-  .about {
-    padding: 60px 0 45px;
-    &__title {
-      font-size: 32px;
-      text-align: center;
-    }
-    &__text {
-      font-size: 14px;
-      line-height: 1.7;
-      &--desctop {
-        display: none;
-      }
-      &--mobile {
-        display: block;
-      }
-    }
-    &__read-more {
-      display: block;
-    }
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031011}}
+  .product-slider__big {
+    width: 100%;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031016}}
+  .product-slider__thumb-wrapper {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031020}}
+  .product-slider__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+@media (max-width: 578px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031027}}
+  .popup__dialog {
+    padding-left: 0px;
+    padding-right: 0px; }
 
-  .baner-slider {
-    &__slide {
-      height: 730px;
-    }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031033}}
+  .product-tabs__nav {
+    margin-bottom: 15px;
+    padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031037}}
+  .product-tabs__nav-item {
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031040}}
+  .product-tabs__content-title {
+    padding: 0 20px; }
 
-    &__bg {
-      background-position: center left;
-    }
-
-    &__content {
-      text-align: center;
-
-      p {
-        font-size: 14px;
-      }
-    }
-
-    &__title {
-      font-size: 32px;
-    }
-  }
-  .catalog {
-    padding: 20px 0 100px;
-    &__control {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      &-prev {
-        left: 0;
-      }
-      &-next {
-        right: 0;
-      }
-    }
-  }
-  .catalog-card {
-    justify-content: center;
-    ul.catalog-card__size-list {
-      justify-content: center;
-    }
-    &__title-box {
-      text-align: center;
-    }
-  }
-  .partner {
-    padding-top: 0;
-    &__list {
-      gap: 20px;
-    }
-  }
-.tobuy {
-  background-image: url('../images/content/toby-bg-s.webp');
-}
-  .warranty {
-    padding-bottom: 0;
-    &__title {
-      font-size: 28px;
-      p {
-        width: 310px;
-      }
-    }
-    &__highlight {
-      font-size: 72px;
-    }
-  }
-  .promo {
-    position: relative;
-    &__inner {
-      position: static;
-      padding-top: 540px;
-    }
-    &__title{
-      font-size: 28px;
-    }
-  }
-  .popup {
-    &__dialog {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-  }
-  .product-tabs {
-    &__nav {
-      margin-bottom: 15px;
-      padding: 0 40px;
-    }
-    &__content-title {
-      padding: 0 40px;
-    }
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031044}}
   .product-descr {
-    padding-top: 80px;
-  }
-  .table{
-    &__header {
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-    &__item {
-      padding-left: 40px;
-    }
-  }
-}
-@media(max-width: 440px) {
-  .warranty {
-    &__inner {
-      padding-top: 330px;
-    }
-    &__img {
-      left: -30px;
-    }
-    &__title {
-      font-size: 30px;
-      flex-direction: column;
-      align-items: center;
-      p {
-        text-align: center;
-        width: 100%;
-      }
-    }
+    padding-top: 80px; }
 
-    &__highlight {
-      font-size: 72px;
-    }
-  }
-} */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031048}}
+  .table__header {
+    padding-left: 40px;
+    padding-right: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031052}}
+  .table__item {
+    font-size: 18px;
+    padding-left: 30px;
+    line-height: 1.2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031057}}
+  .table__cell {
+    padding-left: 10px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_footer\.scss}line{font-family:\000031}}
 .footer {
   padding: 30px 0;

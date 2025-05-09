@@ -16,7 +16,7 @@ MENU_BTN.addEventListener('click', ()=>{
   MENU_BTN.classList.toggle('menu__btn--active');
   openMenu()
 });
-
+390
 const openMenu = ()=> {
   document.body.classList.toggle('lock');
   MENU_LIST.classList.toggle('menu__list--active');
