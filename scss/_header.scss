@@ -29,19 +29,18 @@
     }
   }
   &__logo {
-
-    display: inline-block;
-    visibility: visible;
-    transition: all .3s ease;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
     &--top {
       top: 20px;
       left: 0;
       right: 0;
       position: absolute;
       margin: 0 auto;
+      transition: opacity 0.5s ease, transform 0.5s ease;
     }
     &--scrolled {
-      visibility: hidden;
+    opacity: 0;
     }
      
     img {
@@ -81,17 +80,18 @@
       box-shadow: 0 11px 0 $white;
       transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
     }
-  
+
     &::after {
       bottom: 0;
       transition: bottom .3s .15s, transform .3s;
     }
+
     &--active {
       &::before {
         top: 11px;
         transform: rotate(45deg);
         box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
-        transition: box-shadow .15s, top .3transform .5s .3s .15s;
+        transition: box-shadow .15s, top .3s, transform .3s .15s;
       }
 
       &::after {
