@@ -211,15 +211,20 @@
 
 /* multibaner */
 .mutibaner {
-  padding: 70px 0;
+  &__wrapper {
+    position: relative;
+  }
 }
 .mutibaner-slider {
-  position: relative;
+  &__slide {
+    height: 750px;
+    width: 100%;
+  }
   &__pagination {
     display: flex;
     gap: 15px;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -238,13 +243,21 @@
 }
 .feature {
   display: flex;
+  justify-content: space-between;
+  padding: 70px 0 30px;
   &__left-box {
-    margin-right: 25px;
-    width: 530px;
+    margin-right: 10px;
+    margin-bottom: -30px;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   &__left-top {
+    width: 320px;
     text-align: right;
     margin-bottom: 60px;
+    margin-left: auto;
   }
   &__title {
     color: $black;
@@ -272,6 +285,7 @@
     object-fit: cover;
     &--right-top {
       width: 100%;
+      height: 337px;
     }
     &__left-img {
       width: 100%;
@@ -281,13 +295,205 @@
   &__right-box {
     width: 670px;
   }
-
+  &__right-bottom-box {
+    width: 320px;
+  }
   &__right-bottom {
     padding-top: 25px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     gap: 10px;
+  }
+  &__left-midle-box {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+.syncing {
+  padding: 60px 0 75px;
+  
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.syncing-slider {
+  width: 100%;
+  &__big {
+    width: 750px;
+    margin-right: 10px;
+  }
+  &__big-item {
+    width: 100%;
+  }
+  &__big-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  &__thumb-wrapper {
+    text-align: left;
+    padding-right: 60px;
+  }
+  &__thumb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__thumb-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  &__thumb-box {
+    margin-top: 10px;
+    color: $black;
+  }
+  &__thumb-item-title {
+    @extend %calibri-700;
+    font-size: 32px;
+  }
+  &__thumb-item-text {
+    font-size: 18px;
+  }
+  &__pagination {
+    display: none;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $product-bullet;
+    &--active {
+      background-color: $product-bullet-active;
+    }
+  }
+}
+.hdr,
+.qled,
+.oled {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hdr {
+  padding-bottom: 170px;
+  &__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    @extend %calibri-700;
+    font-size: 74px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+  &__subtitle {
+    @extend %calibri-700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.38;
+  }
+}
+.qled {
+  padding-bottom: 70px;
+  &__content {
+    max-width: 475px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    @extend %calibri-700;
+    font-size: 74px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  &__subtitle {
+    @extend %calibri-700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.38;
+  }
+}
+.oled {
+  padding-bottom: 60px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+  &__content-box {
+    max-width: 510px;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  &__title {
+    @extend %calibri-700;
+    font-size: 74px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+  &__subtitle {
+    @extend %calibri-700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.38;
+  }
+  &__list {
+    display: flex;
+  }
+  &__item {
+    width: 300px;
+    text-align: center;
+    padding: 0 40px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 70px;
+      top: 5px;
+      right: 0;
+      background-color: $white;
+    }
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding: 0 50px;
+    }
+  }
+  &__item-title {
+    @extend %calibri-700;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  &__item-text {
+    font-size: 18px;
   }
 }
 
