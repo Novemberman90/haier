@@ -1025,7 +1025,7 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003576}}
   .feature {
-    padding: 0 0 60px;
+    padding: 0 0 40px;
     background-image: url("../images/miltibaner/future-bg-mob.jpg");
     height: 100%;
     background-size: cover;
@@ -1051,7 +1051,7 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003590}}
     .feature__left-box {
       margin-right: 0;
-      margin-bottom: 30px; }
+      margin-bottom: 10px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003594}}
     .feature__right-bottom {
       padding-top: 0; }
@@ -1060,7 +1060,7 @@ a {
       padding-top: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003601}}
     .feature__left-top {
-      margin: 0 0 30px 0;
+      margin: 0 0 10px 0;
       text-align: left;
       width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003606}}
@@ -1068,7 +1068,7 @@ a {
       display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003609}}
     .feature__title {
-      font-size: 32px !important;
+      font-size: 26px !important;
       margin-bottom: 5px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003613}}
     .feature__text {
@@ -1182,45 +1182,57 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003712}}
     .oled__list {
       display: none; } }
+@media (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003719}}
+  .feature__left-box {
+    margin-right: 0;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003723}}
+  .feature__left-top {
+    margin: 0 0 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003726}}
+  .feature__title {
+    font-size: 32px !important;
+    margin-bottom: 5px; } }
 @media (max-width: 548px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003718}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003733}}
   .feature,
   .syncing {
     padding-bottom: 80px;
     background-position: center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003738}}
   .hdr,
   .qled,
   .oled {
     background-position: center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003728}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003743}}
   .oled {
     padding-bottom: 80px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003747}}
   .syncing-slider__thumb-item-title {
     font-size: 32px;
     margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003751}}
   .syncing-slider__thumb-box {
     margin-bottom: 25px; } }
 @media (max-width: 478px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003758}}
   .feature__title {
     font-size: 26px !important; } }
 /* partner */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003764}}
 .partner {
   padding: 130px 0 175px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003766}}
   .partner__title {
     font-size: 75px;
     color: #000000;
     margin-bottom: 100px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003774}}
   .partner__inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1228,7 +1240,7 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 50px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003779}}
   .partner__link {
     -webkit-box-flex: 33%;
         -ms-flex: 33%;
@@ -1242,7 +1254,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003784}}
     .partner__link:nth-child(-n+4) {
       -webkit-box-flex: 20%;
           -ms-flex: 20%;
@@ -1253,29 +1265,29 @@ a {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003775}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003790}}
     .partner__link:nth-child(1) {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003778}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003793}}
     .partner__link:nth-child(3) {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003796}}
     .partner__link:nth-child(4) {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end; }
 
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003789}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003804}}
   .partner__link {
     -webkit-box-flex: 0;
         -ms-flex: 0;
             flex: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003791}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003806}}
     .partner__link:nth-child(1) {
       -webkit-box-ordinal-group: 6;
           -ms-flex-order: 5;
@@ -1286,10 +1298,10 @@ a {
       -webkit-box-flex: 50%;
           -ms-flex: 50%;
               flex: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003795}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003810}}
       .partner__link:nth-child(1) img {
         width: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003814}}
     .partner__link:nth-child(2) {
       -webkit-box-ordinal-group: 3;
           -ms-flex-order: 2;
@@ -1300,10 +1312,10 @@ a {
       -webkit-box-flex: 50%;
           -ms-flex: 50%;
               flex: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003818}}
       .partner__link:nth-child(2) img {
         width: 116px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003808}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003823}}
     .partner__link:nth-child(3) {
       -webkit-box-ordinal-group: 5;
           -ms-flex-order: 4;
@@ -1314,10 +1326,10 @@ a {
       -webkit-box-flex: 50%;
           -ms-flex: 50%;
               flex: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003827}}
       .partner__link:nth-child(3) img {
         width: 144px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003816}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003831}}
     .partner__link:nth-child(4) {
       -webkit-box-ordinal-group: 3;
           -ms-flex-order: 2;
@@ -1328,10 +1340,10 @@ a {
       -webkit-box-flex: 30%;
           -ms-flex: 30%;
               flex: 30%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003835}}
       .partner__link:nth-child(4) img {
         width: 134px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003824}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003839}}
     .partner__link:nth-child(5) {
       -webkit-box-ordinal-group: 4;
           -ms-flex-order: 3;
@@ -1342,10 +1354,10 @@ a {
       -webkit-box-flex: 30%;
           -ms-flex: 30%;
               flex: 30%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003828}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003843}}
       .partner__link:nth-child(5) img {
         width: 107px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003847}}
     .partner__link:nth-child(7) {
       -webkit-box-ordinal-group: 3;
           -ms-flex-order: 2;
@@ -1356,10 +1368,10 @@ a {
       -webkit-box-flex: 15%;
           -ms-flex: 15%;
               flex: 15%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003851}}
       .partner__link:nth-child(7) img {
         width: 65px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003840}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003855}}
     .partner__link:nth-child(6) {
       -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
@@ -1371,24 +1383,24 @@ a {
           -ms-flex: 50%;
               flex: 50%; } }
 /* rakuten-tv*/
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003851}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003866}}
 .rakuten-tv {
   padding: 80px 0;
   background-image: url("../images/content/haier-rak-bg.jpg");
   background-position: right 50% center;
   background-size: cover;
   background-repeat: no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003857}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003872}}
   .rakuten-tv--singlPage {
     padding: 160px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003860}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003875}}
   .rakuten-tv__img-mob {
     display: none;
     width: 100%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003866}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003881}}
   .rakuten-tv__inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1396,10 +1408,10 @@ a {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003870}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003885}}
   .rakuten-tv__content {
     width: 600px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003873}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003888}}
   .rakuten-tv__title-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1409,21 +1421,21 @@ a {
             align-items: end;
     margin-bottom: 15px;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003894}}
   .rakuten-tv__title-img {
     position: absolute;
     bottom: 7px;
     right: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003884}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003899}}
   .rakuten-tv__title {
     font-size: 74px;
     line-height: 1;
     margin-right: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003890}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003905}}
   .rakuten-tv__text {
     font-size: 24px;
     margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003895}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003910}}
   .rakuten-tv__btn {
     display: inline-block;
     margin-top: 60px;
@@ -1433,41 +1445,41 @@ a {
     border-radius: 7px; }
 
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003905}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003920}}
   .rakuten-tv {
     padding: 0 0 30px;
     background-image: url("../images/content/blue-bg.svg");
     background-size: cover;
     background-position: center center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003925}}
     .rakuten-tv__img-mob {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003913}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003928}}
     .rakuten-tv__inner {
       padding-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003931}}
     .rakuten-tv__text {
       font-size: 18px; } }
 @media (max-width: 680px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003923}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003938}}
   .rakuten-tv__title {
     font-size: 55px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003926}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003941}}
   .rakuten-tv__title-box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003929}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003944}}
   .rakuten-tv__title-img {
     position: static; } }
 @media (max-width: 448px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003951}}
   .rakuten-tv__text {
     font-size: 16px; } }
 /* service */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003942}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003957}}
 .service {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003959}}
   .service__inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1479,7 +1491,7 @@ a {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003948}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003963}}
     .service__inner::before {
       background-image: url("../images/content/service-bg.jpg");
       position: absolute;
@@ -1490,48 +1502,48 @@ a {
       width: 50%;
       height: 100%;
       left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003960}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003975}}
   .service__img {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003962}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003977}}
     .service__img img {
       width: 100%;
       height: auto;
       -o-object-fit: cover;
          object-fit: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003968}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003983}}
   .service__content {
     width: 540px;
     padding-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003972}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003987}}
   .service__title {
     font-size: 74px;
     line-height: 1;
     margin-bottom: 40px;
     color: #000000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003979}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003994}}
   .service__subtitle {
     font-size: 24px;
     color: #000000;
     margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003985}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031000}}
   .service__decr {
     font-size: 18px;
     line-height: 1.6;
     color: #000000;
     margin-bottom: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003991}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031006}}
   .service__decr-tel {
     font-size: 24px;
     line-height: 1.25;
     color: #004ea2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\00003997}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031012}}
   .service__contact-title {
     font-size: 18px;
     line-height: 1.25;
     margin-bottom: 15px;
     color: #000000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031004}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031019}}
   .service__contact-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1540,7 +1552,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     gap: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031009}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031024}}
   .service__contact-item {
     color: #004ea2;
     font-size: 18px;
@@ -1548,39 +1560,39 @@ a {
     text-decoration: underline; }
 
 @media (max-width: 1180px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031019}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031034}}
   .service__content {
     width: 425px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031022}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031037}}
   .service__title {
     font-size: 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031025}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031040}}
   .service__subtitle {
     font-size: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031043}}
   .service__decr-tel {
     font-size: 20px; } }
 @media (max-width: 950px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031051}}
   .service__inner::before {
     background-position: 75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031040}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031055}}
   .service__content {
     width: 338px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031043}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031058}}
   .service__contact-list {
     gap: 7px; } }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031049}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031064}}
   .service {
     padding-top: 400px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031051}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031066}}
     .service__inner {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031053}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031068}}
       .service__inner::before {
         background-image: url("../images/content/service-bg-mob.jpg");
         position: absolute;
@@ -1592,34 +1604,34 @@ a {
         height: 395px;
         top: 0;
         left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031066}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031081}}
     .service__title, .service__subtitle {
       margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031070}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031085}}
     .service__content {
       width: 100%;
       padding-top: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031074}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031089}}
     .service__decr {
       margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031077}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031092}}
     .service__contact-list {
       gap: 10px; } }
 @media (max-width: 378px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031084}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031099}}
   .service__contact-item {
     font-size: 16px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031091}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031106}}
 .promo__item {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
   height: 700px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031098}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031113}}
 .promo__inner {
   padding: 100px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031117}}
 .promo__content--two {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1631,25 +1643,25 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031121}}
   .promo__content--two .promo__title-box {
     max-width: 480px;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031127}}
 .promo__title-box {
   max-width: 450px;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031131}}
 .promo__title {
   display: block;
   font-size: 49px;
   color: #ffffff;
   margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031138}}
 .promo__subtitle {
   font-size: 22px;
   margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031143}}
 .promo__size-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1659,7 +1671,7 @@ a {
           align-items: center;
   gap: 15px;
   margin-bottom: 145px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031149}}
 .promo__size-btn {
   font-size: 20px;
   padding: 19px 20px;
@@ -1680,18 +1692,18 @@ a {
           align-items: center;
   background-color: transparent;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031163}}
   .promo__size-btn::after {
     position: absolute;
     content: '"';
     right: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031168}}
   .promo__size-btn--active {
     background-image: url("../images/icon/elips-active.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031171}}
   .promo__size-btn:hover {
     background-image: url("../images/icon/elips-active.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031175}}
 .promo__benefits-img {
   width: 100%;
   height: auto;
@@ -1700,19 +1712,19 @@ a {
   margin: 0 auto; }
 
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031184}}
   .promo__item {
     padding-bottom: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031186}}
     .promo__item--one {
       background-image: url("../images/baner/baner-1-mob.jpg") !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031189}}
     .promo__item--two {
       background-image: url("../images/baner/baner-2-mob.jpg") !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031192}}
     .promo__item--tree {
       background-image: url("../images/baner/baner-3-mob.jpg") !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031197}}
   .promo__inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1726,52 +1738,52 @@ a {
             justify-content: flex-end;
     height: 100%;
     padding-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031205}}
   .promo__content--two {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031207}}
     .promo__content--two .promo__title-box {
       max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031212}}
   .promo__title {
     font-size: 45px;
     margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031216}}
   .promo__subtitle {
     font-size: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031219}}
   .promo__size-icon {
     height: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031222}}
   .promo__size-group {
     margin-bottom: 0;
     gap: 10px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031227}}
   .promo__size-btn {
     width: 50px;
     height: 50px;
     font-size: 15px;
     padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031232}}
     .promo__size-btn::after {
       right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031236}}
     .promo__size-btn--active {
       background-image: url("../images/icon/elips-active-mob.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031240}}
     .promo__size-btn:hover {
       background-image: url("../images/icon/elips-active-mob.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031244}}
   .promo__benefits-img {
     display: none; } }
 @media (max-width: 548px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031251}}
   .promo__item {
     height: 670px; } }
 /* popup */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031258}}
 .popup--active {
   display: block;
   position: fixed;
@@ -1788,7 +1800,7 @@ a {
           align-items: center;
   z-index: 50;
   overflow-y: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031272}}
 .popup__dialog {
   max-width: 1360px;
   width: 100%;
@@ -1796,21 +1808,21 @@ a {
   padding: 60px 80px;
   background-color: #ffffff;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031279}}
   .popup__dialog--rakuten {
     max-width: 586px;
     width: 100%;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031285}}
 .popup__panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031288}}
 .popup__title {
   font-size: 30px;
   color: #000000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031293}}
 .popup__close {
   border: none;
   background-color: transparent;
@@ -1820,18 +1832,18 @@ a {
   cursor: pointer; }
 
 /* product */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031306}}
 .product__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031310}}
 .product__slider {
   width: 400px;
   display: block;
   margin-right: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031315}}
 .product__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1841,7 +1853,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031320}}
 .product__content-link {
   font-size: 20px;
   line-height: 1.2;
@@ -1857,23 +1869,23 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031329}}
   .product__content-link:hover, .product__content-link:active {
     color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031333}}
   .product__content-link--new {
     padding: 14px 40px;
     background-color: #feca65;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031338}}
   .product__content-link--buy {
     font-size: 24px;
     padding: 14px 84px;
     background-color: #2cb4f4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031344}}
 .product ul.product__nav-list {
   margin: 25px 0 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031347}}
 .product__nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1882,35 +1894,35 @@ a {
   font-size: 16px;
   color: #000000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031355}}
 .product-slider__big {
   width: 400px;
   margin-left: -20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031359}}
 .product-slider__big-item {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031362}}
 .product-slider__big-img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031367}}
 .product-slider__thumb-wrapper {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031370}}
 .product-slider__thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031374}}
 .product-slider__thumb-img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031379}}
 .product-slider__pagination {
   display: none;
   -webkit-box-align: center;
@@ -1922,21 +1934,21 @@ a {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031388}}
 .product-slider__bullet {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #cbe0f3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031393}}
   .product-slider__bullet--active {
     background-color: #9dbedd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031398}}
 .product-descr {
   padding-top: 110px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031403}}
 .product-tabs__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1946,7 +1958,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031409}}
 .product-tabs__nav-item {
   font-size: 20px;
   color: #000000;
@@ -1954,18 +1966,18 @@ a {
   position: relative;
   -webkit-transition: all .3s;
   transition: all .3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031416}}
   .product-tabs__nav-item::after {
     width: 0%;
     -webkit-transition: all .3s;
     transition: all .3s;
     position: absolute;
     content: ''; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031422}}
   .product-tabs__nav-item--active {
     position: relative;
     color: #2cb4f4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031425}}
     .product-tabs__nav-item--active::after {
       -webkit-transition: all .3s;
       transition: all .3s;
@@ -1975,10 +1987,10 @@ a {
       left: 0;
       bottom: 0;
       background-color: #2cb4f4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031435}}
   .product-tabs__nav-item:hover {
     color: #2cb4f4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031437}}
     .product-tabs__nav-item:hover::after {
       position: absolute;
       content: '';
@@ -1987,34 +1999,34 @@ a {
       left: 0;
       bottom: 0;
       background-color: #2cb4f4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031448}}
 .product-tabs__content-item {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031450}}
   .product-tabs__content-item--active {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031454}}
 .product-tabs__content-title {
   font-size: 24px;
   margin-bottom: 25px;
   color: #000000; }
 
 /* table in tabs */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031463}}
 .table {
   color: #000000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031465}}
   .table__header {
     background-color: #e9e9e9;
     padding: 10px 25px;
     display: grid;
     grid-template-columns: 1fr 2fr; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031471}}
   .table__title {
     font-size: 22px;
     color: #000000;
     line-height: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031477}}
   .table__item {
     font-size: 20px;
     line-height: 2.2;
@@ -2022,35 +2034,35 @@ a {
     grid-template-columns: 1fr 2fr;
     padding: 10px 10px 10px 25px;
     border-bottom: 1px solid #004ea2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031484}}
     .table__item--specs {
       grid-template-columns: 1fr 1fr; }
 
 @media (max-width: 950px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031494}}
   .product__slider {
     margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031498}}
   .product__content-link--buy {
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px; } }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031508}}
   .popup__dialog {
     padding: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031512}}
   .popup__title {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031518}}
   .product__inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031523}}
   .product__slider {
     width: 100%;
     -ms-flex-wrap: wrap;
@@ -2058,10 +2070,10 @@ a {
     margin-left: auto;
     margin-right: auto;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031531}}
   .product__content {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031535}}
   .product__content-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2073,7 +2085,7 @@ a {
             justify-content: space-between;
     gap: 0 20px;
     padding: 0px 10px 0 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031543}}
   .product ul.product__nav-list {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -2082,12 +2094,12 @@ a {
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031549}}
   .product__nav-item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031553}}
   .product__content-link {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -2096,57 +2108,57 @@ a {
     -webkit-box-flex: 40%;
         -ms-flex: 40%;
             flex: 40%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031558}}
     .product__content-link:last-child {
       margin-right: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031547}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031562}}
     .product__content-link--buy, .product__content-link--buy {
       padding-left: 30px;
       padding-right: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031571}}
   .product-slider__big {
     width: 100%;
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031576}}
   .product-slider__thumb-wrapper {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031580}}
   .product-slider__pagination {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } }
 @media (max-width: 578px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031587}}
   .popup__dialog {
     padding-left: 0px;
     padding-right: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031593}}
   .product-tabs__nav {
     margin-bottom: 15px;
     padding: 0 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031597}}
   .product-tabs__nav-item {
     font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031600}}
   .product-tabs__content-title {
     padding: 0 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031604}}
   .product-descr {
     padding-top: 80px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031608}}
   .table__header {
     padding-left: 40px;
     padding-right: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031597}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031612}}
   .table__item {
     font-size: 18px;
     padding-left: 30px;
     line-height: 1.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_index\.scss}line{font-family:\000031617}}
   .table__cell {
     padding-left: 10px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/Haier\/scss\/_rakuten\.scss}line{font-family:\000031}}
